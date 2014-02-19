@@ -35,7 +35,7 @@ except:
     print "Error: something went wrong. Maybe the nb_res you specified was too big?"
     sys.exit(1)
 
-print_header_line()
+#print_header_line()
 doc = message.doc[0]
 for c in doc.child:
     print_result_line(c)
